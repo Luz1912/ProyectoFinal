@@ -1,0 +1,37 @@
+impuput{
+	color: blue;
+}
+.presentacion__imagen{
+	display: inline-block;
+	width: 100%;
+	margin-top: 5%;
+	margin: auto;
+
+}
+
+.presentacion__imagen img{
+	padding: 30px;
+	display: inline-block;
+	background-color: #FFDEDE;
+	width: 48%; /*widh-viewport*/
+	/*height: 50vh; /*height-viewport*/
+}
+
+.presentacion__imagen li{
+  margin-right: 15vw;
+  display: inline-block;
+  position: relative;
+  left: 10vw;
+}
+
+.presentacion__imagen b{
+	margin-bottom: 25px;
+	padding: 10px;
+	position: relative;
+	border-radius: 15px;
+	display: inline-block;
+	width: 48%;
+	margin-top: 5px;
+	bottom: 150px;
+	font-size: 20px;
+}

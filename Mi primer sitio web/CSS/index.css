@@ -1,0 +1,110 @@
+/*index.html*/
+
+/*Presentacion*/
+
+.section-padding{
+	padding: 22px;
+}
+
+
+
+
+.presentacion__texto{	
+	font-size: 24px;
+	padding: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.presentacion__texto h1{
+	margin-bottom: 30px;
+	
+}
+
+.presentacion__texto p{	
+	font-size: 0.9em;
+}
+
+.presentacion__imagen{
+	display: inline-block;
+	width: 100%;
+}
+
+.presentacion__imagen img{
+	width: 100%;
+	background-color: #FFDEDE;
+}
+
+
+/*Historia*/
+
+.historia{
+	margin-top: 4%;
+}
+
+.historia__item{
+	background-color: #7FC8A9;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 15px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.historia__item--important{
+	background-color: #7FC8A9;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 15px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+
+.historia__item:hover, .historia__item--important:hover{
+	background-color: #FFDEDE;
+}
+
+/*Paisaje*/
+/*
+.paisaje{
+	background-image: url(../img/paisaje.jpg);
+	height:  50vh;
+	background-size: cover;
+	border-radius: 17px;
+	opacity: 0.6;
+	
+	margin: 22px;
+}*/
+
+/***********************************/
+
+/*Media Queries*/
+
+@media only screen and (min-width:  992px){
+
+	/*Presentacion*/
+	.presentacion__texto{
+		
+		width: 48%;
+		position: relative;
+		bottom: 150px;
+		font-size: 28px;
+	}
+
+	.presentacion__imagen{
+		
+		width: 48%
+	}
+
+	/*Historia*/
+	.historia__item, .historia__item--important{
+		
+		width: 49%;
+
+	}
+}
